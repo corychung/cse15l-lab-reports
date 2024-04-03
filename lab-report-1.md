@@ -1,4 +1,4 @@
-# Lab Report 1 - Cory Chung (A17365955)
+# CSE15L Lab Report 1 - Cory Chung
 
 ## For the command `cd`:
 
