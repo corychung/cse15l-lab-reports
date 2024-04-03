@@ -1,4 +1,4 @@
-# CSE15L Lab Report 1 - Cory Chung
+# CSE 15L Lab Report #1 - Cory Chung
 
 ## For the command `cd`:
 
