@@ -22,9 +22,11 @@ This command moves the working directory to the specified directory in the argum
 
 ![Image](cd-file.png)
 
-Absolute path: ~/lecture1
+Absolute path: ~/lecture1/
 
 This command moves the working directory to the specified argument. However this is an ERROR because the argument points to a file and not a directory, which is why an error is shown in red.
+
+***
   
 ## For the command `ls`:
 
@@ -48,10 +50,12 @@ This command lists all the items in the specified argument directory, in this ca
 
 ![Image](ls-file.png)
 
-Absolute path: ~/lecture1
+Absolute path: ~/lecture1/
 
 This command simply repeats back the name of the item and filetype. In this example I used Hello.java as the argument which it repeated back to me. This is NOT an error but intended behavior.
 
+***
+ 
 ## For the command `cat`:
 
 **1. With no arguments:**
@@ -74,6 +78,6 @@ This command throws an error saying that the specified argument (lecture1) is a 
 
 ![Image](cat-file.png)
 
-Absolute path: ~/lecture1
+Absolute path: ~/lecture1/
 
 This command prints out the contents of the specified argument file, in this case Hello.java. NOT an error.  
