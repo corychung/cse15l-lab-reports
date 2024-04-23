@@ -27,14 +27,14 @@ Going off of the previous message, the code would trigger `handleRequest` and th
 Finally, these message are added to `toPrint` by iterating over `chatHistory` and then returned. The contents of `toPrint` match what is shown in Screenshot 2 above.
 
 ## Part 2:
-1. On the command line of your computer, run ls with the absolute path to the private key for your SSH key for logging into ieng6.
+1. ***On the command line of your computer, run ls with the absolute path to the private key for your SSH key for logging into ieng6.***
    ![Image](ssh-1.png)
 
-2. On the command line of the ieng6 machine, run ls with the absolute path to the public key for your SSH key for logging into ieng6 (this is the one you copied to your account on ieng6 using ssh-copy-id, so it should be a path on ieng6's file system).
+2. ***On the command line of the ieng6 machine, run ls with the absolute path to the public key for your SSH key for logging into ieng6 (this is the one you copied to your account on ieng6 using ssh-copy-id, so it should be a path on ieng6's file system).***
    ![Image](ssh-2.png)
 
-3. A terminal interaction where you log into your ieng6 account without being asked for a password.
-   ![Image](ssh-3.png)
+3. ***A terminal interaction where you log into your ieng6 account without being asked for a password.
+   ![Image](ssh-3.png)***
 
 ## Part 3:
 
