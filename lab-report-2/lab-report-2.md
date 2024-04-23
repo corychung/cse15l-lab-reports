@@ -2,9 +2,8 @@
 
 ## Part 1:
 
-**ChatServer.java (screenshot + raw)**
+**ChatServer.java (raw + screenshot)**
 
-![Image](code.png)
 ```
 import java.io.IOException;
 import java.net.URI;
@@ -44,8 +43,9 @@ class ChatServer {
         Server.start(port, new Handler());
     }
 }
-
 ```
+
+![Image](code.png)
 
 **Screenshot 1**
 
