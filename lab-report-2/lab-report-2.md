@@ -25,3 +25,16 @@ Finally, these two strings are added to a previously declared array list called 
 Going off of the previous message, the code would trigger `handleRequest` and then create `splitUserAndMessage` which splits the `getQuery()` method into two items, `s=I am a fish` and `user=Dory`. Then `msgString` and `userString` contain `"I am a fish"` and `"Dory"` respectively after splitting once again. Then this message would be added to `chatHistory`, which now contains two items, this one and the previous message from Screenshot 1.
 
 Finally, these message are added to `toPrint` by iterating over `chatHistory` and then returned. The contents of `toPrint` match what is shown in Screenshot 2 above.
+
+## Part 2:
+
+1. ![Image](ssh-1.png)
+2. ![Image](ssh-2.png)
+3. ![Image](ssh-3.png)
+
+## Part 3:
+
+*In 2-3 sentences, describe something you learned from lab in week 2 or 3 that you didn't know before.*
+
+Something new I learned from week 2 and 3 was how to properly use `ssh`. I had used it before in personal projects to connect to remote Raspberry Pi servers but didn't know how to use things like public and private key generation to bypass password entry. I think knowing this will be very useful for my future projects as well.
+
