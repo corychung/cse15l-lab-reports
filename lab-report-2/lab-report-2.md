@@ -35,8 +35,9 @@ Finally, these message are added to `toPrint` by iterating over `chatHistory` an
  
    ![Image](ssh-2.png)
 
-3. ***A terminal interaction where you log into your ieng6 account without being asked for a password.
-   ![Image](ssh-3.png)***
+3. ***A terminal interaction where you log into your ieng6 account without being asked for a password.***
+   
+   ![Image](ssh-3.png)
    
 
 ## Part 3:
