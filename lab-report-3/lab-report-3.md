@@ -72,7 +72,7 @@ Source(s):
 https://ss64.com/bash/find.html  
 ```
 corychung@Corys-MacBook-Air docsearch % find technical -name "chapter-2.txt" -delete
-corychung@Corys-MacBook-Air docsearch % ```
+corychung@Corys-MacBook-Air docsearch % 
 ```
 This block simply finds the specified file and deletes it, returning nothing. Useful when you want to get rid of a lot of files at once but don't know where they are, especially when combined with other arguments.
 ```
