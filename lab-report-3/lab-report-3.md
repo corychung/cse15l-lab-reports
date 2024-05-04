@@ -121,7 +121,6 @@ At first I used ChatGPT to ask it to generate a list of command line options for
 
 ```
 Cory: in bash, can you list every command line option for 'find' and explain what it does in one or two sentences?
-ChatGPT
 
 ChatGPT: Certainly! Here's a list of command-line options for the find command along with brief explanations for each:
 
