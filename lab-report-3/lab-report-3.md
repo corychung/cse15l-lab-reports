@@ -44,7 +44,7 @@
 
 **5. Briefly describe (2-3 sentences) why the fix addresses the issue.**
 
-- In the old code, the issue occurred where the reversing procedure failed at the midpoint because it had already overwritten the array using the values in the beginning half of the array. In the new code, this issue is fixed by having a temporary value that allows the beginning value and the ending value to swap at the same time. So instead of overwriting previous values and having no way to retrieve them in the second half of the reversal, it swaps both values at the same time and thus only needs to iterate through half of the array.
+- In the old code, the issue occurred where the reversing procedure failed at the midpoint because it had already overwritten the beginning half of the array using the values in the ending half of the array. In the new code, this issue is fixed by having a temporary value that allows the beginning value and the ending value to swap at the same time. So instead of overwriting previous values and having no way to retrieve them in the second half of the reversal, it swaps both values at the same time and thus only needs to iterate through half of the array.
 
 ## Part 2: Researching Commands 
 
