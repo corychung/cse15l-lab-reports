@@ -36,9 +36,9 @@
 
 **4. The bug, as the before-and-after code change required to fix it (as two code blocks in Markdown).**
 
-- Before:
+- Before:  
 ![Image](ss4.png)
-- After:
+- After:  
 ![Image](ss3.png)
 
 
@@ -51,7 +51,7 @@
 ### Here I chose the `find` command: ###
 ### Option 1: `-mtime (n)` ###
 Source(s):  
-ChatGPT (see bottom of page)
+ChatGPT (see bottom of page)  
 https://ss64.com/bash/find.html  
 https://www.computerhope.com/unix/ufind.htm  
 https://www.redhat.com/sysadmin/linux-find-command
@@ -82,7 +82,7 @@ corychung@Corys-MacBook-Air docsearch %
 This block does the same but demonstrates the flaw in this argument. Even if nothing is found to match the find command there is no message indicating that something was deleted or not. So one should be careful and check afterwards if files were deleted or not.
 ### Option 3: `empty` ###
 Source(s):  
-ChatGPT (see bottom of page)
+ChatGPT (see bottom of page)  
 https://ss64.com/bash/find.html  
 ```
 corychung@Corys-MacBook-Air docsearch % find technical -empty 
@@ -97,7 +97,7 @@ technical/911report/findme
 Similarly, this also searches for empty files such as `.txt` files. I created a dummy `.txt` file with no content and it was able to find the file and the aforementiond `findme` directory. Again, useful for finding unnecessary files.
 ### Option 4: `-size` ###
 Source(s):  
-ChatGPT (see bottom of page)
+ChatGPT (see bottom of page)  
 https://ss64.com/bash/find.html  
 ```
 corychung@Corys-MacBook-Air docsearch % find technical -type f -size -1k  
