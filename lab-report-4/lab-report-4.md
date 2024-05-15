@@ -13,7 +13,7 @@ I started at the terminal line. This allows me to enter the ieng6 server and int
 
 ![Image](ss2.png)
 
-Here I had the text `git@github.com:corychung/lab7.git` on my clipboard so I could paste it i. I used the keystrokes `git<space>clone<space><CMD+V><enter>`. This clones the repository from my ssh URL to the home directory of my ieng6 server. 
+Here I had the text `git@github.com:corychung/lab7.git` on my clipboard so I could paste it in. I used the keystrokes `git<space>clone<space><CMD+V><enter>`. This clones the repository from my Github to the home directory of my ieng6 server. 
 
 ## Run the tests, demonstrating that they fail.
 
@@ -29,7 +29,7 @@ Here I used tab a few times to autocomplete since there were no other available 
 
 Keys pressed: `vim<space>L<tab>.<enter>:44<enter>er2<ESC>:wq<enter>`
 
-I type `vim` and again use autocomplete to find `ListExamples` then `ListExamples.java`. Then I enter vim mode, use `:44` to find the proper line, `e` to go to the end of the first word which is `index`, then use `r` to enter replace mode and type `2` to replace `1` with `2`. Then `<ESC>` exits insert mode and `:wq<enter>` saves and exits the file.
+I type `vim` and again use autocomplete to find `ListExamples` then `ListExamples.java`. Then I enter vim mode, use `:44` to find the correct line, `e` to go to the end of the first word which is `index1`, then use `r` to enter replace mode and type `2` to replace `1` with `2`. Then `<ESC>` exits insert mode and `:wq<enter>` saves and exits the file.
 
 ## Run the tests, demonstrating that they now succeed.
 
@@ -43,6 +43,6 @@ I simply went back up in bash history to find `bash test.sh` from the previous s
 
 ![Image](ss6.png)
 
-Keys pressed: `git<space>add<space>*<enter>git<space>commit<space>-m<space>"Fixed<space>ListExamples.java"<enter>git<space>push`
+Keys pressed: `git<space>add<space>*<enter>git<space>commit<space>-m<space>"Fixed<space>ListExamples.java"<enter>git<space>push<enter>`
 
 This is just the process to add commit and push changes as mentioned in previous labs. `add` adds it to the staging area, `commit` commits the changes, then `push` pushes it onto Github.
